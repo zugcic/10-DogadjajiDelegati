@@ -30,7 +30,7 @@ namespace Vsite.CSharp
         //    koju primatelji moraju implementirati.
         //    On je (uvijek) tipa void jer ne smije vraćati nikakav rezultat
         //    budući da više slušatelja može biti pretplaćeno (ulančano) na slušanje.
-        public delegate void AlarmEventHandler(object posiljatelj, AlarmEventArgs args);
+        public delegate void AlarmEventHandler(object pošiljatelj, AlarmEventArgs args);
 
         // 3. Sam događaj (event):
         public event AlarmEventHandler Alarm;

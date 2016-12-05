@@ -27,7 +27,7 @@ namespace Vsite.CSharp
 
             // kreiramo objekt koji će se pretplatiti na događaje
             SlušateljAlarma sa = new SlušateljAlarma();
-            // dodajemo ga kao slusštelja
+            // dodajemo ga kao slušatelja događaja
             ga.Alarm += sa.AlarmNotifikacija;
 
 

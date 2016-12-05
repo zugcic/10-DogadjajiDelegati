@@ -31,10 +31,10 @@ namespace Vsite.CSharp
             // TODO: Nadovežite u delegatsku listu metodu IspišiNaKonzolu. Pokrenite program i usporedite prikaz na konzoli sa sadržajem datoteke "poruke.txt"
 
 
-
             ip("Bok");
 
-            Console.ReadLine();
+            Console.WriteLine("GOTOVO!!!");
+            Console.ReadKey();
         }
     }
 }

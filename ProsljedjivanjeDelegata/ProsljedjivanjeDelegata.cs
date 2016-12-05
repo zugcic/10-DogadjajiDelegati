@@ -28,11 +28,7 @@ namespace Vsite.CSharp
         {
             // TODO: Pozvati metodu IspišiFunkciju tako da ispiše vrijednosti funkcije Math.Sin za 10 točaka u intervalu od 0 do Math.PI
 
-
-
             // TODO: Pozvati metodu IspišiFunkciju tako da ispiše vrijednosti funkcije Math.Exp za 5 točaka u intervalu od 0 do 10
-
-
 
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();

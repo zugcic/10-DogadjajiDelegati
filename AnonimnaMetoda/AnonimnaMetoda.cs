@@ -28,10 +28,7 @@ namespace Vsite.CSharp
 
             // TODO: Umjesto gornje naredbe u kojoj se prosljeđuje NitnaMetoda, novoj niti proslijediti anonimnu metodu definiranu pomoću delegata
 
-            
-            
-            
-            
+
             nit.Start();
 
             for (int i = 0; i < max; ++i)

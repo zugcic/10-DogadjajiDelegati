@@ -17,8 +17,7 @@ namespace Vsite.CSharp
 
             // TODO: Pridružiti donja dva rukovatelja događajima Click tipki button i buttonMy
 
-
-            // TODO: Napraviti klasu MyButton koja će biti izvedena iz klase Button, u njoj pregaziti virtualnu metodu OnClick te unutar metoded dodati prikaz kontrole MessageBox
+            // TODO: Napraviti klasu MyButton koja će biti izvedena iz klase Button, u njoj pregaziti virtualnu metodu OnClick te unutar metode dodati prikaz kontrole MessageBox
             
             // TODO: Promijeniti objekt buttonMy tako da bude tipa MyButton, pokrenuti kod i provjeriti ponašanje tipke
 

@@ -6,7 +6,7 @@ PretplataNaDogadjaje
 Primjer Windows Forms aplikacije u kojoj se forma kontrola pretplaćuje na događaje
 i prosljeđuje informacije drugoj kontroli na formi.
 
-Primijetiti kako objekt koji generira događaje (kontrole) ne znaju ništa o objektima
+Primijetiti kako objekti koji generiraju događaje (kontrole) ne znaju ništa o objektima
 koji slušaju događaje (nemaju referencu na slušatelje).
 
 
@@ -31,7 +31,7 @@ Dohvaćanje pojedinih metoda u delegatskoj listi kada je rezultat svake metode b
 
 
 AnonimneMetode
------------------
+--------------
 Primjer korištenja anonimne metode koja se pokreće u novoj niti izvođenja.
 
 
@@ -49,7 +49,7 @@ Primjer korištenja lambda izraza.
 
 
 DefiniranjeDogadjaja
-------------
+--------------------
 Primjer kako definirati klasu koja generira dogadjaje novog tipa te 
 kako se slušatelji mogu prijaviti za te događaje.
 
@@ -61,4 +61,4 @@ Ilustracija kako neodjavljivanje slušatelja uzrokuje curenje memorije.
 
 DogadjajiVirtualneMetode
 ------------------------
-Ilustracija koko i zašte se događaji generiraju u virtualnim metodama.
+Ilustracija kako i zašto se događaji generiraju u virtualnim metodama.

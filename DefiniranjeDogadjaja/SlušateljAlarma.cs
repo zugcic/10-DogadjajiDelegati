@@ -8,7 +8,7 @@ namespace Vsite.CSharp
     class SlušateljAlarma
     {
         // ovo je callback metoda koju će pozvati odašiljatelj
-        public void AlarmNotifikacija(object posiljatelj, GeneratorAlarma.AlarmEventArgs e)
+        public void AlarmNotifikacija(object pošiljatelj, GeneratorAlarma.AlarmEventArgs e)
         {
             Console.WriteLine(
               "Slušatelj je dobio alarm!\nKada: {0}\nGdje: {1}\nOzbiljnost: {2}, Opis: {3}\n",

@@ -26,8 +26,6 @@ namespace Vsite.CSharp
         {
             // TODO: Pomoću metode GetInvocationList dohvatiti sve delegatske funkcije zasebno i za svaku ispisati vrijednosti u traženom intervalu
 
-        
-        
         }
 
         static void Main(string[] args)
@@ -41,7 +39,8 @@ namespace Vsite.CSharp
             Console.WriteLine("*** IspišiFunkcijeZasebno ***");
             IspišiFunkcijeZasebno(f, 0, Math.PI, 10);
 
-            Console.ReadLine();
+            Console.WriteLine("GOTOVO!!!");
+            Console.ReadKey();
         }
     }
 }

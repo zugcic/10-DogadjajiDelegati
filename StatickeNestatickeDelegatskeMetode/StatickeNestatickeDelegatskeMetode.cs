@@ -24,11 +24,7 @@ namespace Vsite.CSharp
         {
             // TODO: Instancirati delegata tipa MojDelegat metodom StatičkaMetoda te pozvati delegata
 
-
-
             // TODO: Gornjem delegatu pridružiti metodu MetodaInstance te ponovno pozvati delegata
-
-
 
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();

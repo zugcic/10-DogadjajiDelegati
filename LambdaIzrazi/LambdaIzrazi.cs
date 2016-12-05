@@ -36,7 +36,6 @@ namespace Vsite.CSharp
             
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();
-
         }
     }
 }

@@ -51,15 +51,9 @@ namespace CurenjeMemorijeZbogNeodjave
 
                 // TODO: Pokrenuti kod i provjeriti ispis na konzolu
 
-
-                
                 // TODO: Dodati naredbu kojom se objekt sd predbilježi na slušanje događaja, pokrenuti kod i provjeriti ispis
 
-
-
                 // TODO: Dodati naredbu kojom se objekt sd odjavljuje od slušanja događaja, pokrenuti kod i provjeriti ispis
-
-
 
             }
 
