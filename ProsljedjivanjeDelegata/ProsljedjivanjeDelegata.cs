@@ -7,7 +7,7 @@ namespace Vsite.CSharp
 {
     // primjer programa s delegatima
     
-    class Program
+    public class ProsljedjivanjeDelegata
     {
         // definicija delegata
         delegate double Funkcija(double x);
@@ -24,11 +24,23 @@ namespace Vsite.CSharp
             }
         }
 
-        static void Main(string[] args)
+        public static void IspisFunkcijeSinus()
         {
             // TODO: Pozvati metodu IspišiFunkciju tako da ispiše vrijednosti funkcije Math.Sin za 10 točaka u intervalu od 0 do Math.PI
 
+        }
+
+        public static void IspisFunkcijeE()
+        {
             // TODO: Pozvati metodu IspišiFunkciju tako da ispiše vrijednosti funkcije Math.Exp za 5 točaka u intervalu od 0 do 10
+
+        }
+
+        static void Main(string[] args)
+        {
+            IspisFunkcijeSinus();
+
+            IspisFunkcijeE();
 
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();

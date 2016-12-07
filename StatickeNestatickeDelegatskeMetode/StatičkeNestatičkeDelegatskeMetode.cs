@@ -5,26 +5,32 @@ using System.Text;
 
 namespace Vsite.CSharp
 {
-    class Program
+    public class StatičkeNestatičkeDelegatskeMetode
     {
         // definicija delegata
         delegate void MojDelegat();
 
-        public static void StatičkaMetoda()
+        private static void StatičkaMetoda()
         {
             Console.WriteLine("Pozvana je statička metoda");
         }
 
-        public void MetodaInstance()
+        private void MetodaInstance()
         {
             Console.WriteLine("Pozvana je metoda instance");
         }
 
-        static void Main(string[] args)
+        public static void PoziviPrekoDelegata()
         {
             // TODO: Instancirati delegata tipa MojDelegat metodom StatičkaMetoda te pozvati delegata
 
             // TODO: Gornjem delegatu pridružiti metodu MetodaInstance te ponovno pozvati delegata
+
+        }
+
+        static void Main(string[] args)
+        {
+            PoziviPrekoDelegata();
 
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();

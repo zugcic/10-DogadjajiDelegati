@@ -7,9 +7,9 @@ namespace Vsite.CSharp
 {
     // primjer poziva delegata preko GetInvocationList
 
-    class Program
+    public class GetInvocationList
     {
-        delegate double Funkcija(double x);
+        public delegate double Funkcija(double x);
 
         static void IspišiFunkciju(Funkcija fja, double x1, double x2, int n)
         {
@@ -22,7 +22,7 @@ namespace Vsite.CSharp
             }
         }
 
-        static void IspišiFunkcijeZasebno(Funkcija fja, double x1, double x2, int n)
+        public static void IspišiFunkcijeZasebno(Funkcija fja, double x1, double x2, int n)
         {
             // TODO: Pomoću metode GetInvocationList dohvatiti sve delegatske funkcije zasebno i za svaku ispisati vrijednosti u traženom intervalu
 

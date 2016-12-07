@@ -6,7 +6,7 @@ using System.IO;
 
 namespace Vsite.CSharp
 {
-    class Program
+    public class UlančavanjeDelegata
     {
         delegate void IspišiPoruku(string poruka);
 
@@ -22,16 +22,22 @@ namespace Vsite.CSharp
                 writer.WriteLine(poruka);
         }
 
-        static void Main(string[] args)
+        public static void IspisPoruka(params string[] poruke)
         {
             IspišiPoruku ip = IspišiUFajl;
 
-            ip("Dobar dan");
+            ip(poruke[0]);
 
             // TODO: Nadovežite u delegatsku listu metodu IspišiNaKonzolu. Pokrenite program i usporedite prikaz na konzoli sa sadržajem datoteke "poruke.txt"
 
 
-            ip("Bok");
+            ip(poruke[1]);
+
+        }
+
+        static void Main(string[] args)
+        {
+            IspisPoruka("Dobar dan", "Bok");
 
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();
