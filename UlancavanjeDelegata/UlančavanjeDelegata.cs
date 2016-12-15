@@ -28,8 +28,8 @@ namespace Vsite.CSharp
 
             ip(poruke[0]);
 
-            // TODO: Nadovežite u delegatsku listu metodu IspišiNaKonzolu. Pokrenite program i usporedite prikaz na konzoli sa sadržajem datoteke "poruke.txt"
-
+			// Nadovežite u delegatsku listu metodu IspišiNaKonzolu. Pokrenite program i usporedite prikaz na konzoli sa sadržajem datoteke "poruke.txt"
+			ip += IspišiNaKonzolu;
 
             ip(poruke[1]);
 
