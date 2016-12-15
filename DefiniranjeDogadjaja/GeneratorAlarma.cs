@@ -40,8 +40,8 @@ namespace Vsite.CSharp
         {
             // ako ima registriranih interesenata za poruku, pošalji
             if (Alarm != null)
-                Alarm(this, e);
-        }
+                Alarm(this, e);   // ili Alarm?.Invoke(this, e);
+		}
 
         // metoda koja aktivira alarm (tj. inicijalizira događaj tipa Alarm)
         public void DižiAlarm(string mjesto, int razina, string opis)
